@@ -17,7 +17,9 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-
+.overnav i{
+    color: red;
+}
 
 /** navigation tag**/
 .bar{
