@@ -1,0 +1,53 @@
+.dummy-sec{
+    background-color: aliceblue;
+    min-height: 70vh;
+    width: 100%;
+}
+.dummy-sec h3{
+    text-align: center;
+    color: blue;
+}
+
+.dummy-sec .parent-div{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.parent-div img{
+    height: 100%;
+    width: 100%;
+}
+.parent-div{
+    position: relative;
+}
+.parent-div .social{
+    /* background-color: rgb(232, 232, 24); */
+    height: 50px;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    left: 0;
+
+}
+.icons{
+    /* position: absolute; */
+    /* bottom: -50%; */
+    
+    background-color: rgb(24, 232, 69);
+    border-radius: 20px;
+    width: 150px;
+    min-height: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+   
+}
+
+/*  */
+

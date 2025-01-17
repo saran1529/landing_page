@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+       background-color: blanchedalmond;
+       padding: 10px;
+    }
+
+    .section{
+        margin: 10px;
+    }
+    .nav{
+        background-image: url(/img/open.jpg);
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size:contain;
+        text-align: center;
+        align-content: end;
+        padding: 20px;
+        height: 40vh;
+        border-radius: 15px;
+        background-color: blanchedalmond;
+    } 
+
+    .nav ul li{
+        font-weight:bold;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        display: inline;  
+        margin-left: 30px;    
+        text-decoration: none;  
+    }
+    nav ul li:hover{
+        background-color: salmon ;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: red;
+
+    }
+    
+    section {
+        margin: 10px;
+        background: white; 
+          
+    }
+
+    h1{
+        text-align: center;
+        background-color: brown;
+    }
+   
+    .p1{
+        font-size: small;
+        padding: 10px;
+        line-height: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-transform: capitalize;
+    }
+    
+    .inputs{
+        margin-bottom: 10px;
+        
+    }
+   .inputs input{
+    float: right;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   }
+   .inputs input:focus{
+    background-color: beige;
+    outline: 2px solid blue;
+   }
+
+
+    label {
+        font-weight: bold;
+        color: #333;
+       
+    }
+    .user label{
+        text-transform: capitalize;
+    }
+   
+
+  .genin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }  
+
+  .genin label{
+    margin-right: 20px;
+  }
+  .gend{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+  
+  
+
+  .but{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: inherit;
+   
+}
+
+.but button{
+    padding:10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.but button:hover{
+    background-color: rgb(201, 143, 143);
+    color: white;
+    box-shadow: 5px -5px 20px red;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+}
+
+.form{
+    background-color: #32B0C7;
+    min-width: 400px;
+    padding: 15px;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+    
+
+/*  */
+
+.navbar{
+    display: flex;
+    /* flex-direction: column; */
+    height: 50px;
+    justify-content: space-evenly; 
+    align-items: center;
+    /* flex-wrap: wrap; */
+    
+}
+.navbar div{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+.navbar ul a{
+    /* background-color: aqua; */
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.navbar ul a:hover{
+    background-color: rgb(115, 185, 162);
+    color: white;
+}
+/* justify-content: space-evenly,   space-around, space-between
+                    center      right       left    end; */
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+
+/* display properties */
+
+h1{
+  /* display: ;     block, inline, flex, grid, none*/
+}
