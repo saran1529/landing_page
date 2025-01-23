@@ -25,20 +25,109 @@ style{
 }
 
 /** navigation tag**/
-.bar{
-    font-size: 40px;
-}
-.nav{
-    padding: 35px;
+.b-container{
+    /* position: relative; */
+    margin: 20px;
+    /* padding: 35px; */
     /* background-color: black; */
-    display: flex;
-    justify-content:space-between;
+    /* display: flex;
+    justify-content:space-between; */
 }
-.login-search{
+.b-container .b-box{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-container .b-box .b-icon-box{ 
+    /* background: #79d31f; */
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    /* align-content: center; */
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-container .b-box .b-icon-box i{
+    font-size: 35px;
+}
+
+.b-container .b-box .b-heading{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-container .b-box .b-heading h1{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b-container .b-box .b-login-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+    gap: 35px;
+    /* background: orange; */
+    width: 130px;
+    height: auto;
+}
+.b-container .b-box .b-login-search p{
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.b-container .b-box .b-login-search p i{
+    font-size: 13px;
+}
+.b-container .b-box .b-login-search .b-search{
+    font-size: 14px;
+}
+.b-container .b-box .sidebar{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background-color: #89c725e8;
+    transform: translatex(-100%);
+    transition: all .6s ease-in-out;
+    z-index: 9999;
+    /* align-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.b-container .b-box .sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+/* .b-container .sidebar ul li{
+    display: flex;
+    align-content: center;
     gap: 20px;
-    font-size: 15px;
+    list-style: none;
+} */
+.b-container .b-box .sidebar ul li a button{
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
 }
+
+.b-icon-box:hover ~ .sidebar {
+    transform: translateX(0);
+}
+
 
 
 /** design-image tag**/
@@ -127,7 +216,7 @@ style{
     /* background: #F4E212; */
 }
 .d-container .d-box{
-    height: auto;
+    height:200px;
     /* height: 160px; */
     width: 250px;
     background: #F4E212;
@@ -293,10 +382,10 @@ style{
     margin-bottom: 150px;
 }
 
-.g-one{order: 4; background-color: #add3d3;}
+/* .g-one{order: 4; background-color: #add3d3;}
 .g-two{order: 2;}
 .g-three{order: 3; background-color: #add3d3;}
-.g-four{order: 1;}
+.g-four{order: 1;} */
 
 .g-container .g-box .g-iconbox{
     width: 265px;
@@ -740,11 +829,12 @@ footer .navigation-div{
     border:2px solid white;
     padding: 15px; 
     margin-bottom: 10px; 
+    /* margin: 10px; */
 }
 
 .email-div::placeholder{
     color: #74AD1B;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -761,9 +851,9 @@ button{
 
 
 .last-line{
-    padding: 20px;
+    padding: 18px;
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     color:#74AD1B ;
 }
 
